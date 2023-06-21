@@ -1,0 +1,3 @@
+$\left(\!\begin{array}{cccccc}
+\textit{x1}\,\textit{x2}\,\textit{x3}\,\textit{y2}&\textit{x2}^{2}\textit{x3}\,\textit{y2}&\textit{x2}\,\textit{x3}^{2}\textit{y2}&\textit{x1}^{2}\textit{x4}\,\textit{y2}&\textit{x1}\,\textit{x2}\,\textit{x4}\,\textit{y2}&\textit{x1}\,\textit{x3}\,\textit{x4}\,\textit{y2}
+\end{array}\!\right)$
