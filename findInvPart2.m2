@@ -44,6 +44,7 @@ pB = flatten(entries(EB1));
 "CaseB coeff.txt" << CB << endl << close
 "CaseB.txt" << texMath pB << endl << close
 
+
 -- Case C:
 JC = gens gb IC
 numGensJC = #flatten entries(JC)
@@ -56,3 +57,5 @@ pC = flatten(entries(EC1));
 "CaseC gens.txt" << texMath MC << endl << close
 "CaseC coeff.txt" << Cc << endl << close
 "CaseC.txt" << texMath pC << endl << close
+gbTrace = 3
+JCc = ideal groebnerBasis(ICc, Strategy => "F4")
