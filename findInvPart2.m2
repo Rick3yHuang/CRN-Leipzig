@@ -25,6 +25,11 @@ pA = flatten(entries(EA1));
 "CaseA3 coeff.txt" << CA3 << endl << close
 (MA4,CA4) = coefficients pA_3
 "CaseA.txt" << tex flatten(entries(EA2)) << endl << close
+-- After adding the conservation law
+gbTrace = 3
+JAc = ideal groebnerBasis(IAc, Strategy=>"F4")
+--JAc = gens gb IAc
+EAc = eliminate({y1,y2,z1,z2,z3,z4,z5,z6},IAc)
 
 -- Case B:
 JB = gens gb IB
